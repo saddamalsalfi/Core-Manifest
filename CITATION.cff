@@ -1,44 +1,29 @@
-# Core-Manifest
-# File:    CITATION.cff
-# (c) 2025 Saddam Al-Slfi / Queen Arwa University
-# License: MIT
-# SPDX-License-Identifier: MIT
-
-
-
 cff-version: 1.2.0
 title: "Core-Manifest: A Unified Standard for Software Project Information"
 message: "If you use this software in your work, please cite it using the following metadata."
 type: software
 authors:
-
-given-names: "Saddam H."
-family-names: "Al-Slfi"
-email: "saddamalsalfi@qau.edu.ye"
-affiliation: "Open Source Lab, Queen Arwa University"
-orcid: "https://orcid.org/0000-0002-4006-0193"
+  - given-names: "Saddam H."
+    family-names: "Al-Slfi"
+    email: "saddamalsalfi@qau.edu.ye"
+    affiliation: "Open Source Lab, Queen Arwa University"
+    orcid: "https://orcid.org/0000-0002-4006-0193"
 repository-code: "https://github.com/saddamalsalfi/Core-Manifest"
 url: "https://qau.edu.ye"
-abstract: "A professional toolkit and standard for synchronizing, exporting, and visualizing project metadata. It establishes a single source of truth for project information, ensuring consistency across standard data formats while powering rich, interactive web interfaces that are always up-to-date."
+abstract: >
+  A professional toolkit and standard for synchronizing, exporting, and visualizing project metadata.
+  It establishes a single source of truth for project information, ensuring consistency across standard
+  data formats while powering rich, interactive web interfaces that are always up-to-date.
 keywords:
-
-"metadata"
-
-"automation"
-
-"developer-tools"
-
-"standard"
-
-"manifest"
-
-"project-management"
-
-"yaml"
-
-"json"
-
-"xml"
+  - metadata
+  - automation
+  - developer-tools
+  - standard
+  - manifest
+  - project-management
+  - yaml
+  - json
+  - xml
 license: MIT
 version: 1.0.0
 date-released: 2025-09-24
