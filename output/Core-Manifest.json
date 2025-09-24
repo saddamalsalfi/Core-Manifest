@@ -1,0 +1,121 @@
+{
+  "projectId": "qauproject-2025",
+  "projectTitle": "PROJECT INFO SYS",
+  "systemSlug": "project-info-sys",
+  "version": "1.2.0",
+  "releaseDate": "2023-09-10",
+  "lastUpdated": "2025-09-15",
+  "status": "Active",
+  "uiLanguages": [
+    "en",
+    "ar"
+  ],
+  "programmingLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "database": "PostgreSQL",
+  "frameworks": [
+    "Django",
+    "React"
+  ],
+  "architecture": "Client-Server (REST + WebSockets)",
+  "license": "MIT",
+  "documentationUrl": "https://docs.qau.edu.ye/",
+  "homepageUrl": "https://demo.qau.edu.ye/",
+  "keywords": [
+    "AI",
+    "Machine Learning",
+    "CS"
+  ],
+  "maintainers": [
+    {
+      "name": "Saddam Al-Slfi",
+      "affiliation": "Open Source Lab, Queen Arwa University",
+      "role": "CS Developer",
+      "email": "saddamalsalfi@qau.edu.ye",
+      "github": "saddamalsalfi",
+      "orcid": "0000-0002-4006-0193",
+      "timeZone": "UTC+3"
+    },
+    {
+      "name": "Eyad Hashim",
+      "affiliation": "Swift Soft Pro Ltd.",
+      "role": "Backend Engineer",
+      "email": "eyad@swiftsoftpro.com",
+      "github": "eyadhashim",
+      "linkedin": "https://linkedin.com/in/eyadhashim",
+      "timeZone": "UTC+0"
+    }
+  ],
+  "organization": {
+    "owningEntity": "Open Source Lab, Queen Arwa University",
+    "supportContact": "support@qau.edu.ye",
+    "issueTracker": "GitHub Issues",
+    "communicationChannels": {
+      "discussions": "https://github.com/org/repo/discussions",
+      "slack": "https://workspace.slack.com/project",
+      "mailingList": "project-list@example.com"
+    }
+  },
+  "runtimeRequirements": {
+    "runtimeEnvironments": [
+      "Linux (Ubuntu 22.04+)",
+      "Windows 11",
+      "macOS Ventura"
+    ],
+    "dependencies": [
+      "Python >= 3.9",
+      "Node.js >= 18",
+      "PostgreSQL >= 13"
+    ],
+    "optionalLibraries": [
+      "NumPy >= 1.25",
+      "TensorFlow >= 2.15",
+      "Express.js >= 5.0"
+    ],
+    "buildTools": [
+      "pip",
+      "npm",
+      "Docker"
+    ]
+  },
+  "deployment": {
+    "methods": [
+      "Docker Compose",
+      "Kubernetes (Helm Chart)"
+    ],
+    "cloudProviders": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "ciCdPipelines": [
+      "GitHub Actions",
+      "Jenkins"
+    ]
+  },
+  "relatedFiles": {
+    "readme": "./README.md",
+    "contributing": "./CONTRIBUTING.md",
+    "codeowners": "./.github/CODEOWNERS",
+    "security": "./.github/SECURITY.md",
+    "citation": "./CITATION.cff",
+    "changelog": "./CHANGELOG.md",
+    "releases": "https://github.com/org/repo/releases"
+  },
+  "compliance": {
+    "spdxLicenseId": "MIT",
+    "fundingSponsor": "National Research Fund",
+    "dataPolicy": "./DATA_POLICY.md",
+    "accessibilityCompliance": "WCAG 2.1 AA",
+    "securityAudits": "2025-05-12 (SecureCode Inc.)",
+    "codeOfConduct": "./CODE_OF_CONDUCT.md"
+  },
+  "metrics": {
+    "testCoverage": "87%",
+    "buildStatus": "Passing",
+    "knownIssues": "See GitHub Issues label 'known-issue'",
+    "roadmapUrl": "./ROADMAP.md"
+  }
+}
