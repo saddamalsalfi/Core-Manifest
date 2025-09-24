@@ -3,7 +3,7 @@ title: "Core-Manifest: A Unified Standard for Software Project Information"
 message: "If you use this software in your work, please cite it using the following metadata."
 type: software
 authors:
-  - given-names: "Saddam H."
+  - given-names: "Saddam"
     family-names: "Al-Slfi"
     email: "saddamalsalfi@qau.edu.ye"
     affiliation: "Open Source Lab, Queen Arwa University"
