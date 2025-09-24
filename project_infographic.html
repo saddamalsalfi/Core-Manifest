@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sample Project - Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="assets/css/infographic_styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        
+        <!-- Hero Section -->
+        <header class="text-center mb-16 md:mb-24">
+            <h1 id="projectTitle" class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                An infographic overview of our project's key metrics, technologies, and team structure, providing a comprehensive identity card for all stakeholders.
+            </p>
+             <div class="mt-8 flex justify-center items-center gap-4">
+                <span id="version-badge" class="bg-blue-100 text-blue-800 text-sm font-bold px-4 py-2 rounded-full"></span>
+                <span id="status-badge" class="bg-green-100 text-green-800 text-sm font-bold px-4 py-2 rounded-full inline-flex items-center gap-2">
+                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                </span>
+             </div>
+        </header>
+
+        <!-- Key Metrics Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Key Metrics at a Glance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mb-4 text-center">Test Coverage</h3>
+                    <div class="chart-container mx-auto" style="max-width: 250px; height: 250px;">
+                        <canvas id="coverageChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg flex flex-col justify-center items-center">
+                    <h3 class="text-lg font-semibold text-gray-700 mb-2">Project Maintainers</h3>
+                    <p id="maintainerCount" class="text-6xl font-extrabold text-[#00A0B0]"></p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg flex flex-col justify-center items-center">
+                     <h3 class="text-lg font-semibold text-gray-700 mb-2">Keywords</h3>
+                    <p id="keywordCount" class="text-6xl font-extrabold text-[#FC913A]"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Stack Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">The Technology Behind the Project</h2>
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+                <p class="text-center text-gray-600 mb-6 max-w-2xl mx-auto">Our project is built on a modern, robust stack. The chart below shows a breakdown of the primary technologies we leverage across different categories.</p>
+                <div class="chart-container" style="height: 350px; max-width: 800px; margin: auto;">
+                    <canvas id="techStackChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="mb-16 md:mb-24">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Meet the Team</h2>
+            <div id="maintainers-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            </div>
+        </section>
+
+        <!-- Ecosystem & Process -->
+        <section>
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Ecosystem & Processes</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- CI/CD Flow -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Deployment Pipeline</h3>
+                    <p class="text-gray-600 mb-6">Our automated CI/CD pipeline ensures reliable and frequent deployments.</p>
+                    <div id="ci-cd-flow" class="flex flex-col md:flex-row items-stretch justify-between bg-gray-100 rounded-lg p-4 space-y-4 md:space-y-0 md:space-x-4">
+                    </div>
+                </div>
+
+                <!-- Compliance & Organization -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Compliance & Organization</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-700 mb-2">Organization</h4>
+                            <ul id="org-list" class="space-y-2 text-gray-600"></ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-700 mb-2">Compliance</h4>
+                            <ul id="compliance-list" class="space-y-2 text-gray-600"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="assets/js/infographic_script.js"></script>
+</body>
+</html>

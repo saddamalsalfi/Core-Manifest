@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<root>
+	<projectId>qauproject-2025</projectId>
+	<projectTitle>PROJECT INFO SYS</projectTitle>
+	<systemSlug>project-info-sys</systemSlug>
+	<version>1.2.0</version>
+	<releaseDate>2023-09-10</releaseDate>
+	<lastUpdated>2025-09-15</lastUpdated>
+	<status>Active</status>
+	<uiLanguages>
+		<item>en</item>
+		<item>ar</item>
+	</uiLanguages>
+	<programmingLanguages>
+		<item>Python</item>
+		<item>JavaScript</item>
+	</programmingLanguages>
+	<database>PostgreSQL</database>
+	<frameworks>
+		<item>Django</item>
+		<item>React</item>
+	</frameworks>
+	<architecture>Client-Server (REST + WebSockets)</architecture>
+	<license>MIT</license>
+	<documentationUrl>https://docs.qau.edu.ye/</documentationUrl>
+	<homepageUrl>https://demo.qau.edu.ye/</homepageUrl>
+	<keywords>
+		<item>AI</item>
+		<item>Machine Learning</item>
+		<item>CS</item>
+	</keywords>
+	<maintainers>
+		<item>
+			<name>Saddam Al-Slfi</name>
+			<affiliation>Open Source Lab, Queen Arwa University</affiliation>
+			<role>CS Developer</role>
+			<email>saddamalsalfi@qau.edu.ye</email>
+			<github>saddamalsalfi</github>
+			<orcid>0000-0002-4006-0193</orcid>
+			<timeZone>UTC+3</timeZone>
+		</item>
+		<item>
+			<name>Eyad Hashim</name>
+			<affiliation>Swift Soft Pro Ltd.</affiliation>
+			<role>Backend Engineer</role>
+			<email>eyad@swiftsoftpro.com</email>
+			<github>eyadhashim</github>
+			<linkedin>https://linkedin.com/in/eyadhashim</linkedin>
+			<timeZone>UTC+0</timeZone>
+		</item>
+	</maintainers>
+	<organization>
+		<owningEntity>Open Source Lab, Queen Arwa University</owningEntity>
+		<supportContact>support@qau.edu.ye</supportContact>
+		<issueTracker>GitHub Issues</issueTracker>
+		<communicationChannels>
+			<discussions>https://github.com/org/repo/discussions</discussions>
+			<slack>https://workspace.slack.com/project</slack>
+			<mailingList>project-list@example.com</mailingList>
+		</communicationChannels>
+	</organization>
+	<runtimeRequirements>
+		<runtimeEnvironments>
+			<item>Linux (Ubuntu 22.04+)</item>
+			<item>Windows 11</item>
+			<item>macOS Ventura</item>
+		</runtimeEnvironments>
+		<dependencies>
+			<item>Python &gt;= 3.9</item>
+			<item>Node.js &gt;= 18</item>
+			<item>PostgreSQL &gt;= 13</item>
+		</dependencies>
+		<optionalLibraries>
+			<item>NumPy &gt;= 1.25</item>
+			<item>TensorFlow &gt;= 2.15</item>
+			<item>Express.js &gt;= 5.0</item>
+		</optionalLibraries>
+		<buildTools>
+			<item>pip</item>
+			<item>npm</item>
+			<item>Docker</item>
+		</buildTools>
+	</runtimeRequirements>
+	<deployment>
+		<methods>
+			<item>Docker Compose</item>
+			<item>Kubernetes (Helm Chart)</item>
+		</methods>
+		<cloudProviders>
+			<item>AWS</item>
+			<item>Azure</item>
+			<item>GCP</item>
+		</cloudProviders>
+		<ciCdPipelines>
+			<item>GitHub Actions</item>
+			<item>Jenkins</item>
+		</ciCdPipelines>
+	</deployment>
+	<relatedFiles>
+		<readme>./README.md</readme>
+		<contributing>./CONTRIBUTING.md</contributing>
+		<codeowners>./.github/CODEOWNERS</codeowners>
+		<security>./.github/SECURITY.md</security>
+		<citation>./CITATION.cff</citation>
+		<changelog>./CHANGELOG.md</changelog>
+		<releases>https://github.com/org/repo/releases</releases>
+	</relatedFiles>
+	<compliance>
+		<spdxLicenseId>MIT</spdxLicenseId>
+		<fundingSponsor>National Research Fund</fundingSponsor>
+		<dataPolicy>./DATA_POLICY.md</dataPolicy>
+		<accessibilityCompliance>WCAG 2.1 AA</accessibilityCompliance>
+		<securityAudits>2025-05-12 (SecureCode Inc.)</securityAudits>
+		<codeOfConduct>./CODE_OF_CONDUCT.md</codeOfConduct>
+	</compliance>
+	<metrics>
+		<testCoverage>87%</testCoverage>
+		<buildStatus>Passing</buildStatus>
+		<knownIssues>See GitHub Issues label 'known-issue'</knownIssues>
+		<roadmapUrl>./ROADMAP.md</roadmapUrl>
+	</metrics>
+</root>

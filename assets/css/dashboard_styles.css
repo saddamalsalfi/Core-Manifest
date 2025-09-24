@@ -1,0 +1,27 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.sidebar-link {
+    transition: all 0.2s ease-in-out;
+}
+.sidebar-link:hover, .sidebar-link.active {
+    background-color: #e2e8f0; /* slate-200 */
+    color: #0f172a; /* slate-900 */
+    transform: translateX(4px);
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 400px;
+}
+ .card {
+    background-color: white;
+    border-radius: 0.75rem;
+    border: 1px solid #e2e8f0; /* slate-200 */
+    padding: 1.5rem;
+    height: 100%;
+}
