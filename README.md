@@ -26,7 +26,7 @@ This repository provides the reference implementation, schema definitions, and t
 This project provides a robust, streamlined solution for maintaining your project's metadata. It is built upon a **"single source of truth"** philosophy and consists of two primary, interconnected components:
 
 1.  **🧠 Data Synchronization & Export Engine (`converter_pro.py`)** A powerful Python script that performs two critical tasks:
-    * **Synchronization:** It reads data from a master file (e.g., `PROJECTINFO.md`) and injects it directly into the project's web visualization assets.
+    * **Synchronization:** It reads data from a master file (e.g., `Core-Manifest.md`) and injects it directly into the project's web visualization assets.
     * **Exporting:** It generates and exports the data into all other standard formats (`.json`, `.yaml`, `.xml`) within a clean `output` directory.
 
 2.  **🌐 Data-Driven Web Visualizations** A set of pre-built, professional single-page applications that consume the synchronized data to provide insightful views of the project. The data is managed externally, allowing the HTML files to remain clean and focused on structure.
@@ -75,7 +75,7 @@ The workflow is designed to be simple and efficient.
 
 ### Step 1: Update Your Master Data File
 
-Choose **one** of the root data files (`PROJECTINFO.md`, `.json`, `.yaml`, or `.xml`) to be your single source of truth. Open it and make any necessary changes to the project information.
+Choose **one** of the root data files (`Core-Manifest.md`, `.json`, `.yaml`, or `.xml`) to be your single source of truth. Open it and make any necessary changes to the project information.
 
 ### Step 2: Run the Synchronization Script
 
@@ -111,16 +111,16 @@ This is the final, organized structure of the project.
 │       └── infographic_script.js     # Logic & DATA for the Infographic
 │
 ├── 🐍 converter_pro.py                # The main synchronization & export script
-├── 📄 PROJECTINFO.md                   # Example master data file (source of truth)
+├── 📄 Core-Manifest.md                   # Example master data file (source of truth)
 ├── 📊 interactive_dashboard.html       # The interactive dashboard SPA (clean structure)
 ├── 📈 project_infographic.html         # The project infographic SPA (clean structure)
 └── 📜 README.md                        # This file
 
 ./output/                                 <-- Auto-generated on script run
-    ├── PROJECTINFO.md
-    ├── PROJECTINFO.json
-    ├── PROJECTINFO.xml
-    └── PROJECTINFO.yaml
+    ├── Core-Manifest.md
+    ├── Core-Manifest.json
+    ├── Core-Manifest.xml
+    └── Core-Manifest.yaml
 ```
 
 ```
